@@ -1,0 +1,12 @@
+---
+---
+@import "{{ site.theme }}";
+
+img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+h3 {
+    margin-bottom: 0;
+}
