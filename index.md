@@ -1,8 +1,3 @@
-# Herman Pagan Alvarez
-*Aspiring Software/Game Developer*
-
----
-
 ## About Me
 
 I am a student at Pennsylvania College of Technology pursuing my bachelor's degree in both Software & Information Systems Management and Game & Simulation Programming.
