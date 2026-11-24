@@ -19,14 +19,14 @@ I am a student at Pennsylvania College of Technology pursuing my bachelor's degr
 ![Tweak Subway](assets/tweaktv.png)
 *Ingame screenshot of the subway*
 
-**Description:** [An first-person action game centered around compeleting tasks in fast times in abandoned places with a streamer aesthetic. I worked on the enemies and items.]
+**Description:** An first-person action game centered around compeleting tasks in fast times in abandoned places with a streamer aesthetic. I worked on the enemies and items.
 
-**Link:** [itch.io](https://example.com) | [Source code](https://github.com/you/project-one)
+**Link:** itch.io: https://example.com](https://sarcasticlord12.itch.io/tweaktvremastered | Source code: https://github.com/SarcasticLord/Tweak.TV-Remastered
 
 <br>
 
-### [TryMyGame]
-*[Project development website (Senior Project)]*
+### TryMyGame
+*Project development website (Senior Project)*
 
 ---
 
@@ -35,7 +35,7 @@ I am a student at Pennsylvania College of Technology pursuing my bachelor's degr
 
 **Description:** A website meant to act as a way for developers to show off projects such as games, art, and apps. The main feature is the 3D model viewer, using Babylon Lite to display GLB models and their respective animations.
 
-**Link:** [Visit the site](trymygame.org) | [Source code](https://github.com/you/project-two)
+**Link:** Visit the site: https://trymygame.org/ | Source code: https://github.com/you/project-two
 
 ---
 
