@@ -1,24 +1,23 @@
-markdown
-# [Herman Pagan Alvarez]
-*[Aspiring Software/Game Developer]*
+# Herman Pagan Alvarez
+*Aspiring Software/Game Developer*
 
 ---
 
 ## About Me
 
-[I am a student at Pennsylvania College of Technology pursuing my bachelor's degree in both Software & Information Systems Management and Game & Simulation Programming. ]
+I am a student at Pennsylvania College of Technology pursuing my bachelor's degree in both Software & Information Systems Management and Game & Simulation Programming.
 
 ---
 
 ## Projects
 
-### [Tweak.TV]
-*[First person action game]*
+### Tweak.TV
+*First person action game*
 
 ---
 
-![Describe the image for accessibility](assets/project-one.png)
-*[Ingame screenshot of the subway]*
+![Tweak Subway](assets/project-one.png)
+*Ingame screenshot of the subway*
 
 **Description:** [An first-person action game centered around compeleting tasks in fast times in abandoned places with a streamer aesthetic. I worked on the enemies and items.]
 
@@ -32,11 +31,11 @@ markdown
 ---
 
 ![A shot of the homepage](assets/project-two.png)
-*[The homepage of the site.]*
+*The homepage of the site.*
 
-**Description:** [A website meant to act as a way for developers to show off projects such as games, art, and apps. The main feature is the 3D model viewer, using Babylon Lite to display GLB models and their respective animations.]
+**Description:** A website meant to act as a way for developers to show off projects such as games, art, and apps. The main feature is the 3D model viewer, using Babylon Lite to display GLB models and their respective animations.
 
-**Link:** [View the project](trymygame.org) | [Source code](https://github.com/you/project-two)
+**Link:** [Visit the site](trymygame.org) | [Source code](https://github.com/you/project-two)
 
 ---
 
