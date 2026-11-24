@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Name | Portfolio</title>
+  <meta name="description" content="Portfolio of a Software &amp; Information Systems Management and Game &amp; Simulation Programming student.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;700&family=Literata:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+  <style>
+    /* ---------- Design tokens: change colors and fonts here ---------- */
+    :root {
+      --bg: #edf0f4;
+      --surface: #ffffff;
+      --ink: #16212c;
+      --muted: #52606d;
+      --accent: #0b6b6f;
+      --accent-dark: #084c4f;
+      --line: #cbd3dc;
+
+      --font-heading: "Familjen Grotesk", "Helvetica Neue", Arial, sans-serif;
+      --font-body: "Literata", Georgia, "Times New Roman", serif;
+
+      --content-width: 880px;
+      --image-ratio: 16 / 9;
+    }
+
+    /* ---------- Base ---------- */
+    *, *::before, *::after { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--font-body);
+      font-size: 1.0625rem;
+      line-height: 1.7;
+    }
+
+    .page {
+      width: 100%;
+      max-width: var(--content-width);
+      margin: 0 auto;
+      padding: 3.5rem 1.25rem 4rem;
+    }
+
+    h1, h2, h3 {
+      font-family: var(--font-heading);
+      line-height: 1.15;
+      margin: 0;
+    }
+
+    p { margin: 0 0 1rem; }
+
+    a {
+      color: var(--accent);
+      text-underline-offset: 3px;
+    }
+    a:hover { color: var(--accent-dark); }
+    a:focus-visible,
+    img:focus-visible {
+      outline: 3px solid var(--accent);
+      outline-offset: 3px;
+      border-radius: 2px;
+    }
+
+    /* ---------- Header ---------- */
+    .site-header { margin-bottom: 3rem; }
+
+    .site-header h1 {
+      font-size: clamp(2.5rem, 7vw, 4rem);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .tagline {
+      margin: 0.75rem 0 0;
+      font-style: italic;
+      color: var(--muted);
+      font-size: 1.15rem;
+    }
+
+    /* ---------- Sections ---------- */
+    section {
+      padding-top: 2.5rem;
+      margin-top: 2.5rem;
+      border-top: 1px solid var(--line);
+    }
+
+    section > h2 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin-bottom: 1.25rem;
+    }
+
+    /* ---------- Projects ---------- */
+    .project {
+      border-left: 4px solid var(--accent);
+      padding-left: 1.5rem;
+    }
+
+    .project + .project { margin-top: 3.5rem; }
+
+    .project h3 {
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+
+    .subtitle {
+      margin: 0.35rem 0 0;
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    .project hr {
+      border: 0;
+      border-top: 1px solid var(--line);
+      margin: 1.25rem 0 1.5rem;
+    }
+
+    .project figure { margin: 0 0 1.25rem; }
+
+    /* Every project image gets the same shape; edit --image-ratio above */
+    .project img {
+      display: block;
+      width: 100%;
+      aspect-ratio: var(--image-ratio);
+      object-fit: cover;   /* use "contain" to show the whole image without cropping */
+      border-radius: 8px;
+      background: var(--line);
+    }
+
+    .project figcaption {
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    .project-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin: 1.25rem 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .project-links a {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      border: 2px solid var(--accent);
+      border-radius: 6px;
+      font-family: var(--font-heading);
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    .project-links a:hover {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    /* ---------- Contact ---------- */
+    .contact-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .contact-list li { margin-bottom: 0.4rem; }
+    .contact-list span {
+      display: inline-block;
+      min-width: 5.5rem;
+      color: var(--muted);
+    }
+
+    /* ---------- Small screens ---------- */
+    @media (max-width: 560px) {
+      body { font-size: 1rem; }
+      .project { padding-left: 1rem; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+
+    <header class="site-header">
+      <h1>Your Name</h1>
+      <p class="tagline">Software and game developer</p>
+    </header>
+
+    <main>
+
+      <section id="about">
+        <h2>About me</h2>
+        <p>
+          I’m a student at Pennsylvania College of Technology pursuing my bachelor’s degree
+          in both Software &amp; Information Systems Management and Game &amp; Simulation Programming.
+        </p>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+
+        <!-- Project 1 -->
+        <article class="project">
+          <h3>Tweak.TV</h3>
+          <p class="subtitle">First-person action game</p>
+          <hr>
+
+          <figure>
+            <img src="assets/tweaktv.png" alt="Screenshot of the subway level in Tweak.TV">
+            <figcaption>In-game screenshot of the subway.</figcaption>
+          </figure>
+
+          <p>
+            A first-person action game about completing tasks quickly in abandoned places,
+            with a streamer aesthetic. I worked on the enemies and items.
+          </p>
+
+          <ul class="project-links">
+            <li><a href="https://sarcasticlord12.itch.io/tweaktvremastered">Play on itch.io</a></li>
+            <li><a href="https://github.com/SarcasticLord/Tweak.TV-Remastered">Source code</a></li>
+          </ul>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project">
+          <h3>TryMyGame</h3>
+          <p class="subtitle">Project development website (senior project)</p>
+          <hr>
+
+          <figure>
+            <img src="assets/trymygame.png" alt="The TryMyGame homepage">
+            <figcaption>The TryMyGame homepage.</figcaption>
+          </figure>
+
+          <p>
+            A website where developers can show off projects such as games, art, and apps.
+            The main feature is a 3D model viewer that uses Babylon Lite to display GLB models
+            and their animations.
+          </p>
+
+          <ul class="project-links">
+            <li><a href="https://trymygame.org/">Visit the site</a></li>
+            <!-- TODO: add the real repository link, then uncomment this line
+            <li><a href="https://github.com/YOUR-USERNAME/YOUR-REPO">Source code</a></li>
+            -->
+          </ul>
+        </article>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <ul class="contact-list">
+          <li><span>Email</span><a href="mailto:hdp7@pct.edu">hdp7@pct.edu</a></li>
+          <li><span>GitHub</span><a href="https://github.com/hdp7">github.com/hdp7</a></li>
+          <li><span>LinkedIn</span><a href="https://linkedin.com/in/hpaganlvarez">linkedin.com/in/hpaganlvarez</a></li>
+        </ul>
+      </section>
+
+    </main>
+  </div>
+</body>
+</html>
